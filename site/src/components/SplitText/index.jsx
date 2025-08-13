@@ -135,7 +135,7 @@ const SplitTextTitle = ({
   return (
     <p
       ref={ref}
-      className={`split-parent overflow-hidden inline-block whitespace-normal ${className}`}
+      className={` text-7xl split-parent overflow-hidden inline-block whitespace-normal font-vanitasb ${className}`}
       style={{
         textAlign,
         wordWrap: "break-word",

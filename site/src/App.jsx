@@ -11,9 +11,9 @@ function App() {
     <div div class="@container">
       <Navbar />
       <VideoBackground videoSrc={videoSrc}>
-        <div>
+        <div className="flex flex-col items-center gap-4">
           <SplitTextTitle
-            text="Tu nueva casa te espera!"
+            text="Pacifico 37"
             className="text-2xl font-semibold text-center m-2"
             delay={10}
             duration={2}
@@ -25,10 +25,10 @@ function App() {
             rootMargin="-100px"
             textAlign="center"
           />
-        </div>
-        <div>
-          <p>conoce este marivillos lugar</p>
-          <button className="flex items-center gap-2 px-4 py-2 text-white bg-black rounded-lg duration-150 hover:bg-white ">
+
+          <p className="font-vanitasr text-2xl">Tu Lugar en la tranquilidad</p>
+
+          <button className="flex items-center gap-2 px-4 py-2 text-white bg-black rounded-lg duration-150 hover:bg-white hover:text-black">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -41,18 +41,16 @@ function App() {
                 clipRule="evenodd"
               />
             </svg>
-            Button
+            Contactar
           </button>
         </div>
       </VideoBackground>
-      <div>
+      <div className="grid grid-cols-2 gap-1 justify-center mt-6">
         <div>
           <h1>hola</h1>
         </div>
         <div>
-          <Stack 
-          
-          />
+          <Stack />
         </div>
       </div>
     </div>

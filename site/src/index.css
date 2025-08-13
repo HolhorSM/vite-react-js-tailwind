@@ -1,1 +1,24 @@
+
 @import "tailwindcss";
+
+/* regular custom font */
+@font-face {
+    font-family: VanitasR;
+    src: url("../src/assets/fonts/fonnts.com-Vanitas-Regular.otf");
+}
+
+
+@theme {
+  --font-vanitasr: "VanitasR", sans-serif; 
+}
+
+/* bold custom font */
+
+@font-face {
+    font-family: VanitasB;
+    src: url("../src/assets/fonts/fonnts.com-Vanitas-Bold.otf");
+}
+
+@theme {
+  --font-vanitasb: "VanitasB", sans-serif; 
+}
