@@ -4,11 +4,12 @@ import SplitTextTitle from "./components/SplitText/index";
 import VideoBackground from "./components/videoBackground";
 import videoSrc from "./assets/pacifico37.mp4";
 import Stack from "./components/Stack";
+import Footer from "./components/footer";
 import "./index.css";
 
 function App() {
   return (
-    <div div class="@container">
+    <div className="w-full h-screen">
       <Navbar />
       <VideoBackground videoSrc={videoSrc}>
         <div className="flex flex-col items-center gap-4">
@@ -45,15 +46,31 @@ function App() {
           </button>
         </div>
       </VideoBackground>
-      <div className="grid grid-cols-2 gap-1 justify-center mt-6">
-        <div>
-          <h1>hola</h1>
-        </div>
-        <div>
-          <Stack />
+      <div className="flex items-center justify-center mt-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="mx-4 w-80 h-80 flex flex-col justify-center text-justify">
+            <h1 className="font-vanitasb text-4xl">Lorem ipsum</h1>
+            <p className="font-vanitasr text-xl">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              quia, modi nostrum dignissimos labore sapiente placeat animi magni
+            </p>
+          </div>
+          <div className="flex justify-center mx-4 w-80 h-80">
+            <Stack />
+          </div>
         </div>
       </div>
+      <div
+        className="mt-10 elfsight-app-ee27dbe6-4b22-48b6-a31b-0626ff660eb9"
+        data-elfsight-app-lazy
+      ></div>
+
+      <div className="mt-5">
+        <Footer />
+      </div>
+
     </div>
+    
   );
 }
 

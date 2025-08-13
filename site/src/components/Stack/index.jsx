@@ -1,4 +1,4 @@
-import { motion, useMotionValue, useTransform } from "framer-motion";
+import { motion , useMotionValue, useTransform } from "framer-motion";
 import foto1 from "../../assets/Fotos/1.jpg";
 import foto2 from "../../assets/Fotos/4.jpg";
 import foto3 from "../../assets/Fotos/5.jpg";
